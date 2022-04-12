@@ -20,6 +20,12 @@ set expandtab
 " Enable automatic indentation
 set autoindent
 
+" Allow us to easily move lines downward
+map - Vyddp
+
+" Allow us to easily move lines upward
+map _ k-k
+
 " =====================
 " UI configuration 
 " =====================
