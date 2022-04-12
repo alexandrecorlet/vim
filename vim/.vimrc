@@ -26,6 +26,9 @@ map - Vyddp
 " Allow us to easily move lines upward
 map _ k-k
 
+" Allow us to quickly turn current word into UPPERCASE
+imap <c-u> <esc><space>Ui
+
 " =====================
 " UI configuration 
 " =====================
