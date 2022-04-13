@@ -21,16 +21,19 @@ set expandtab
 set autoindent
 
 " Allow us to easily move lines downward
-map - Vyddp
+noremap - Vyddp
 
 " Allow us to easily move lines upward
-map _ k-k
+noremap _ k-k
 
 " Allow us to quickly select a word
-map <space> viw
+noremap <space> viw
+
+" Allow us to quickly delete a line in insert mode
+inoremap <c-d> <esc>ddi
 
 " Allow us to quickly turn current word into UPPERCASE
-imap <c-u> <esc><space>Ui
+inoremap <c-u> <esc>viwUi
 
 " =====================
 " UI configuration 
