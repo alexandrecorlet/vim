@@ -38,6 +38,14 @@ inoremap <c-d> <esc>ddi
 " Allow us to quickly turn current word into UPPERCASE
 inoremap <c-u> <esc>viwUi
 
+" Compile and execute C++ programs
+nnoremap <F8> <esc> :w <CR> :!g++ -std=c++17 -Wall -o %< % && ./%< <CR>
+inoremap <F8> <esc> :w <CR> :!g++ -std=c++17 -Wall -o %< % && ./%< <CR>
+
+" Compile and execute C++ programs passing to it a input file as argument.
+nnoremap <F9> <esc> :w <CR> :!g++ -std=c++17 -Wall -o %< % && ./%< < inp <CR>
+inoremap <F9> <esc> :w <CR> :!g++ -std=c++17 -Wall -o %< % && ./%< < inp <CR>
+
 " =====================
 " UI configuration 
 " =====================
