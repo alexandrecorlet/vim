@@ -20,6 +20,9 @@ set expandtab
 " Enable automatic indentation
 set autoindent
 
+" Increase font size
+set guifont=Menlo\ Regular:h16
+
 " Allow us to easily move lines downward
 noremap - Vyddp
 
