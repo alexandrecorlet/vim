@@ -23,6 +23,9 @@ set autoindent
 " Increase font size
 set guifont=Menlo\ Regular:h16
 
+" Disable annoying beep
+set belloff=all
+
 " Allow us to easily move lines downward
 noremap - Vyddp
 
